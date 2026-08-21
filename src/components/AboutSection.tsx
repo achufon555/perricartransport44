@@ -30,7 +30,7 @@ export default function AboutSection() {
           >
             <div className="relative rounded-3xl overflow-hidden">
               <Image
-                src="/images/about-img.jpg"
+                src="/images/about-img.svg"
                 alt="SwiftMove team loading cars"
                 width={600}
                 height={450}

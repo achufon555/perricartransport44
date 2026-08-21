@@ -65,7 +65,7 @@ export default function CoverageSection() {
               {/* Map Background */}
               <div
                 className="absolute inset-0 opacity-20 bg-cover bg-center rounded-3xl"
-                style={{ backgroundImage: "url('/images/map-sa.jpg')" }}
+                style={{ backgroundImage: "url('/images/map-sa.svg')" }}
               />
               <div className="absolute inset-0 bg-gradient-to-br from-black/60 to-black/40 rounded-3xl" />
 

@@ -20,7 +20,7 @@ const services = [
       "Cost-effective and reliable transport on our open carriers. Perfect for standard vehicles across South Africa's major routes.",
     features: ["Most affordable option", "Multi-vehicle capacity", "All major routes", "GPS tracked"],
     price: "From R2,500",
-    image: "/images/service-open.jpg",
+    image: "/images/service-open.svg",
     popular: false,
   },
   {
@@ -40,7 +40,7 @@ const services = [
       "Premium protection for luxury, classic or high-value vehicles. Fully enclosed trailers shield your car from the elements.",
     features: ["Full weather protection", "Luxury & exotic cars", "Extra insurance cover", "White-glove service"],
     price: "From R4,800",
-    image: "/images/service-enclosed.jpg",
+    image: "/images/service-enclosed.svg",
     popular: true,
   },
   {
@@ -58,7 +58,7 @@ const services = [
       "We collect from your door and deliver directly to your destination — no depot drop-offs required. Maximum convenience.",
     features: ["Home collection", "Direct delivery", "No depot needed", "Flexible scheduling"],
     price: "From R3,200",
-    image: "/images/hero-bg.jpg",
+    image: "/images/hero-bg.svg",
     popular: false,
   },
   {
@@ -76,7 +76,7 @@ const services = [
       "Scalable solutions for businesses relocating fleets, dealerships shipping stock, or auction houses moving vehicles in bulk.",
     features: ["Fleet relocation", "Dealer stock transport", "Auction movement", "Volume discounts"],
     price: "Custom Pricing",
-    image: "/images/map-sa.jpg",
+    image: "/images/map-sa.svg",
     popular: false,
   },
 ];

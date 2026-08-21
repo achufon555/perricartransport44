@@ -91,8 +91,8 @@ export default function ContactSection() {
                       </svg>
                     ),
                     label: "Phone / WhatsApp",
-                    value: "0800 123 456",
-                    sub: "+27 11 123 4567",
+                    value: "+27 61 726 1895",
+                    sub: "Available 7 days a week",
                   },
                   {
                     icon: (
@@ -101,8 +101,8 @@ export default function ContactSection() {
                       </svg>
                     ),
                     label: "Email",
-                    value: "info@swiftmove.co.za",
-                    sub: "quotes@swiftmove.co.za",
+                    value: "info@wisemovetransport.co.za",
+                    sub: "We reply within 30 minutes",
                   },
                   {
                     icon: (
@@ -141,7 +141,7 @@ export default function ContactSection() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/27800123456"
+              href="https://wa.me/27617261895"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02 }}

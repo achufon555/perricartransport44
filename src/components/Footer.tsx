@@ -59,14 +59,16 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex gap-3">
               {[
-                { label: "Facebook", icon: "f", color: "#1877f2" },
-                { label: "Instagram", icon: "📷", color: "#e4405f" },
-                { label: "WhatsApp", icon: "W", color: "#25d366" },
-                { label: "YouTube", icon: "▶", color: "#ff0000" },
+                { label: "Facebook", icon: "f", color: "#1877f2", href: "#" },
+                { label: "Instagram", icon: "📷", color: "#e4405f", href: "#" },
+                { label: "WhatsApp", icon: "W", color: "#25d366", href: "https://wa.me/27617261895" },
+                { label: "YouTube", icon: "▶", color: "#ff0000", href: "#" },
               ].map((social) => (
                 <motion.a
                   key={social.label}
-                  href="#"
+                  href={social.href}
+                  target={social.href.startsWith("http") ? "_blank" : undefined}
+                  rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   whileHover={{ scale: 1.1, y: -2 }}
                   className="w-9 h-9 glass-card rounded-full flex items-center justify-center text-xs font-bold text-gray-400 hover:text-white hover:border-orange-500/40 transition-colors"
                   aria-label={social.label}
