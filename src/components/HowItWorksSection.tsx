@@ -116,7 +116,7 @@ export default function HowItWorksSection() {
                   </div>
                 </div>
 
-                <div className="text-3xl font-black text-orange-500/20 mb-1" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
+                <div className="text-3xl font-black text-orange-500/20 mb-1" style={{ fontFamily: "var(--font-bebas)" }}>
                   {step.step}
                 </div>
                 <h3 className="text-base font-bold text-white mb-2">{step.title}</h3>

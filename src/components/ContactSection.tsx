@@ -17,6 +17,7 @@ const vehicleTypes = [
 export default function ContactSection() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
   const [submitted, setSubmitted] = useState(false);
+  const [reference, setReference] = useState("");
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "", email: "", phone: "", fromCity: "", toCity: "",
@@ -39,6 +40,7 @@ export default function ContactSection() {
         body: JSON.stringify(form),
       });
       if (res.ok) {
+        setReference(Date.now().toString().slice(-6));
         setSubmitted(true);
       }
     } catch {
@@ -189,7 +191,7 @@ export default function ContactSection() {
                     within 30 minutes with your personalised quote.
                   </p>
                   <p className="text-sm text-gray-500">
-                    Reference: <span className="text-orange-400 font-mono">SM-{Date.now().toString().slice(-6)}</span>
+                    Reference: <span className="text-orange-400 font-mono">SM-{reference}</span>
                   </p>
                 </motion.div>
               ) : (

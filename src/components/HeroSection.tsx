@@ -84,7 +84,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-tight mb-6"
-            style={{ fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "2px" }}
+            style={{ fontFamily: "var(--font-bebas)", letterSpacing: "2px" }}
           >
             <span className="block text-white">YOUR CAR.</span>
             <span className="block text-gradient">DELIVERED SAFE.</span>
