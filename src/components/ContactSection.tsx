@@ -101,7 +101,7 @@ export default function ContactSection() {
                       </svg>
                     ),
                     label: "Email",
-                    value: "info@wisemovetransport.co.za",
+                    value: "info@swiftmove.co.za",
                     sub: "We reply within 30 minutes",
                   },
                   {
