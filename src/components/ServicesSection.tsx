@@ -107,7 +107,7 @@ export default function ServicesSection() {
             <span className="text-gradient">Every Need</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            From single vehicles to entire fleets — SwiftMove has a tailored transport
+            From single vehicles to entire fleets — Wise Move has a tailored transport
             solution that fits your timeline and budget.
           </p>
         </motion.div>
@@ -130,7 +130,7 @@ export default function ServicesSection() {
               <div className="relative h-52 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={`${service.title} by SwiftMove Auto Transport`}
+                  alt={`${service.title} by Wise Move Transport`}
                   fill
                   unoptimized
                   sizes="(min-width: 768px) 50vw, 100vw"

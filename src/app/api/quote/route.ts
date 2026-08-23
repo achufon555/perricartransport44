@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
       try {
         const { subject, html } = quoteNotificationEmail(quote);
         await resend.emails.send({
-          from: `SwiftMove Auto Transport <${process.env.RESEND_FROM_EMAIL}>`,
+          from: `Wise Move Transport <${process.env.RESEND_FROM_EMAIL}>`,
           to: process.env.RESEND_TO_EMAIL,
           replyTo: quote.email || undefined,
           subject,

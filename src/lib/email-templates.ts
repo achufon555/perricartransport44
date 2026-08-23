@@ -59,8 +59,8 @@ export function quoteNotificationEmail(quote: QuoteEmailData): { subject: string
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                   <td>
-                    <span style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;color:#ffffff;letter-spacing:0.02em;">Swift<span style="color:#1a1a1a;">Move</span></span><br/>
-                    <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:700;color:rgba(255,255,255,0.85);text-transform:uppercase;letter-spacing:0.12em;">Auto Transport</span>
+                    <span style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;color:#ffffff;letter-spacing:0.02em;">Wise <span style="color:#1a1a1a;">Move</span></span><br/>
+                    <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:700;color:rgba(255,255,255,0.85);text-transform:uppercase;letter-spacing:0.12em;">Transport</span>
                   </td>
                   <td align="right">
                     <span style="display:inline-block;background-color:rgba(255,255,255,0.2);color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:6px 12px;border-radius:999px;">New Lead</span>
@@ -130,7 +130,7 @@ export function quoteNotificationEmail(quote: QuoteEmailData): { subject: string
           <!-- Footer -->
           <tr>
             <td style="padding:20px 32px;background-color:#fafafa;border-top:1px solid #f1f1f1;">
-              <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#9a9a9a;">This lead was submitted through the quote form on swiftmove.co.za. Reply directly to this email to reach the customer.</span>
+              <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#9a9a9a;">This lead was submitted through the quote form on wisemovetransport.co.za. Reply directly to this email to reach the customer.</span>
             </td>
           </tr>
 

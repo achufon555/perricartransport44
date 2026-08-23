@@ -17,9 +17,9 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "SwiftMove Auto Transport | South Africa's #1 Car Transport Company",
+  title: "Wise Move Transport | South Africa's #1 Car Transport Company",
   description:
-    "SwiftMove Auto Transport – South Africa's trusted car transport company. We deliver your vehicle safely across Johannesburg, Cape Town, Durban, and all major cities. Get a free quote today!",
+    "Wise Move Transport – South Africa's trusted car transport company. We deliver your vehicle safely across Johannesburg, Cape Town, Durban, and all major cities. Get a free quote today!",
   keywords:
     "car transport South Africa, vehicle transport, auto transport, car shipping, Johannesburg, Cape Town, Durban",
 };
