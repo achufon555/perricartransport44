@@ -31,6 +31,7 @@ export default function HeroSection() {
         alt="Car carrier transporting vehicles on a South African highway at sunset"
         fill
         priority
+        unoptimized
         sizes="100vw"
         className="object-cover object-[68%_center]"
       />

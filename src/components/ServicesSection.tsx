@@ -132,6 +132,7 @@ export default function ServicesSection() {
                   src={service.image}
                   alt={`${service.title} by SwiftMove Auto Transport`}
                   fill
+                  unoptimized
                   sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
