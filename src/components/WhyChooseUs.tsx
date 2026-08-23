@@ -62,11 +62,11 @@ export default function WhyChooseUs() {
           className="text-center mb-14"
         >
           <span className="inline-block bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">
-            Why SwiftMove
+            Why Wise Move
           </span>
           <h2 className="text-4xl sm:text-5xl font-black mb-4 text-white">
             Why South Africa Chooses{" "}
-            <span className="text-gradient">SwiftMove</span>
+            <span className="text-gradient">Wise Move</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             We&apos;re not just a transport company — we&apos;re your vehicle&apos;s guardian from

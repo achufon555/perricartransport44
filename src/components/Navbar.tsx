@@ -53,10 +53,10 @@ export default function Navbar() {
             </div>
             <div>
               <span className="text-xl font-black tracking-wide text-white">
-                Swift<span className="text-gradient">Move</span>
+                Wise <span className="text-gradient">Move</span>
               </span>
               <div className="text-[10px] text-orange-400 font-semibold tracking-widest uppercase -mt-1">
-                Auto Transport
+                Transport
               </div>
             </div>
           </motion.a>

@@ -31,7 +31,7 @@ export default function AboutSection() {
             <div className="relative rounded-3xl overflow-hidden">
               <Image
                 src="/images/transport-team.jpg"
-                alt="SwiftMove vehicle transport team beside a loaded car carrier"
+                alt="Wise Move vehicle transport team beside a loaded car carrier"
                 width={600}
                 height={450}
                 unoptimized
@@ -69,7 +69,7 @@ export default function AboutSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <span className="inline-block bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-5">
-              About SwiftMove
+              About Wise Move
             </span>
 
             <h2 className="text-4xl sm:text-5xl font-black text-white mb-5 leading-tight">
@@ -79,7 +79,7 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-gray-400 text-base leading-relaxed mb-5">
-              Founded in 2012, SwiftMove Auto Transport has grown to become the leading car
+              Founded in 2012, Wise Move Transport has grown to become the leading car
               transport company in South Africa. We started with a single truck and a commitment
               to reliability — today, we operate a fleet of 50+ carriers covering every corner
               of the country.

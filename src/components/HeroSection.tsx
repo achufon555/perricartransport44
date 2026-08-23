@@ -105,7 +105,7 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto lg:mx-0 mb-10 leading-relaxed"
           >
-            SwiftMove Auto Transport connects all major cities across South Africa.
+            Wise Move Transport connects all major cities across South Africa.
             Whether it&apos;s open or enclosed transport — your vehicle arrives{" "}
             <span className="text-orange-400 font-semibold">on time, every time.</span>
           </motion.p>

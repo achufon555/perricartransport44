@@ -11,7 +11,7 @@ const testimonials = [
     rating: 5,
     avatar: "SN",
     color: "from-orange-500 to-red-600",
-    text: "Absolutely phenomenal service! I moved from Joburg to Cape Town and needed my BMW transported. SwiftMove picked it up on time, kept me updated throughout, and delivered it in perfect condition. Will definitely use again!",
+    text: "Absolutely phenomenal service! I moved from Joburg to Cape Town and needed my BMW transported. Wise Move picked it up on time, kept me updated throughout, and delivered it in perfect condition. Will definitely use again!",
     vehicle: "BMW 3 Series",
     route: "JHB → CPT",
   },
@@ -21,7 +21,7 @@ const testimonials = [
     rating: 5,
     avatar: "NM",
     color: "from-blue-500 to-purple-600",
-    text: "I bought a car from a dealer in Durban and was nervous about having it transported. SwiftMove put my mind at ease with constant updates and GPS tracking. The car arrived spotless. Highly recommend!",
+    text: "I bought a car from a dealer in Durban and was nervous about having it transported. Wise Move put my mind at ease with constant updates and GPS tracking. The car arrived spotless. Highly recommend!",
     vehicle: "Toyota Fortuner",
     route: "DBN → CPT",
   },
@@ -31,7 +31,7 @@ const testimonials = [
     rating: 5,
     avatar: "TD",
     color: "from-green-500 to-teal-600",
-    text: "As a car dealer, I regularly need to move vehicles between cities. SwiftMove has been my go-to for 3 years. Great pricing for bulk transport and they always deliver on time. 10/10 service.",
+    text: "As a car dealer, I regularly need to move vehicles between cities. Wise Move has been my go-to for 3 years. Great pricing for bulk transport and they always deliver on time. 10/10 service.",
     vehicle: "Fleet of 6 Vehicles",
     route: "DBN → JHB",
   },
@@ -41,7 +41,7 @@ const testimonials = [
     rating: 5,
     avatar: "PP",
     color: "from-pink-500 to-rose-600",
-    text: "My vintage car was transported in an enclosed trailer with the utmost care. The team was professional, the communication was great, and the delivery was on schedule. SwiftMove is the best in the business!",
+    text: "My vintage car was transported in an enclosed trailer with the utmost care. The team was professional, the communication was great, and the delivery was on schedule. Wise Move is the best in the business!",
     vehicle: "Classic Mercedes-Benz",
     route: "PTA → CPT",
   },
@@ -51,7 +51,7 @@ const testimonials = [
     rating: 5,
     avatar: "LM",
     color: "from-yellow-500 to-orange-500",
-    text: "I had to relocate urgently and needed my car moved within 2 days. SwiftMove made it happen! Super responsive team, fair pricing, and the driver was courteous and professional. Excellent!",
+    text: "I had to relocate urgently and needed my car moved within 2 days. Wise Move made it happen! Super responsive team, fair pricing, and the driver was courteous and professional. Excellent!",
     vehicle: "VW Polo",
     route: "JHB → BFN",
   },
@@ -61,7 +61,7 @@ const testimonials = [
     rating: 5,
     avatar: "AB",
     color: "from-cyan-500 to-blue-600",
-    text: "Used SwiftMove to transport my Audi from PE to Joburg. Seamless from start to finish. The online tracking system is brilliant — I watched my car's journey the whole way. 5 stars without question!",
+    text: "Used Wise Move to transport my Audi from PE to Joburg. Seamless from start to finish. The online tracking system is brilliant — I watched my car's journey the whole way. 5 stars without question!",
     vehicle: "Audi A4",
     route: "PE → JHB",
   },
@@ -91,7 +91,7 @@ export default function TestimonialsSection() {
             <span className="text-gradient">Say About Us</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Don&apos;t just take our word for it. Here&apos;s what real customers across South Africa say about SwiftMove.
+            Don&apos;t just take our word for it. Here&apos;s what real customers across South Africa say about Wise Move.
           </p>
           <div className="flex items-center justify-center gap-1 mt-4">
             {[...Array(5)].map((_, i) => (
