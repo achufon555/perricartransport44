@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 
 const services = [
@@ -20,7 +21,7 @@ const services = [
       "Cost-effective and reliable transport on our open carriers. Perfect for standard vehicles across South Africa's major routes.",
     features: ["Most affordable option", "Multi-vehicle capacity", "All major routes", "GPS tracked"],
     price: "From R2,500",
-    image: "/images/service-open.svg",
+    image: "/images/open-car-transport.jpg",
     popular: false,
   },
   {
@@ -40,7 +41,7 @@ const services = [
       "Premium protection for luxury, classic or high-value vehicles. Fully enclosed trailers shield your car from the elements.",
     features: ["Full weather protection", "Luxury & exotic cars", "Extra insurance cover", "White-glove service"],
     price: "From R4,800",
-    image: "/images/service-enclosed.svg",
+    image: "/images/enclosed-car-transport.jpg",
     popular: true,
   },
   {
@@ -58,7 +59,7 @@ const services = [
       "We collect from your door and deliver directly to your destination — no depot drop-offs required. Maximum convenience.",
     features: ["Home collection", "Direct delivery", "No depot needed", "Flexible scheduling"],
     price: "From R3,200",
-    image: "/images/hero-bg.svg",
+    image: "/images/hero-car-carrier.jpg",
     popular: false,
   },
   {
@@ -76,7 +77,7 @@ const services = [
       "Scalable solutions for businesses relocating fleets, dealerships shipping stock, or auction houses moving vehicles in bulk.",
     features: ["Fleet relocation", "Dealer stock transport", "Auction movement", "Volume discounts"],
     price: "Custom Pricing",
-    image: "/images/map-sa.svg",
+    image: "/images/transport-team.jpg",
     popular: false,
   },
 ];
@@ -125,26 +126,32 @@ export default function ServicesSection() {
                   : "ring-1 ring-white/10"
               }`}
             >
-              {service.popular && (
-                <div className="absolute top-4 right-4 z-20 bg-gradient-to-r from-orange-500 to-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-                  ⭐ Most Popular
-                </div>
-              )}
-
-              {/* Background image */}
-              <div
-                className="absolute inset-0 bg-cover bg-center opacity-20 group-hover:opacity-30 transition-opacity duration-500"
-                style={{ backgroundImage: `url('${service.image}')` }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-900/95 via-gray-900/90 to-black/80" />
+              {/* Service photography */}
+              <div className="relative h-52 overflow-hidden">
+                <Image
+                  src={service.image}
+                  alt={`${service.title} by SwiftMove Auto Transport`}
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111111] via-black/10 to-black/20" />
+                {service.popular && (
+                  <div className="absolute top-4 right-4 z-20 bg-gradient-to-r from-orange-500 to-red-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+                    ★ Most Popular
+                  </div>
+                )}
+                <span className="absolute bottom-4 right-5 text-white font-bold text-sm bg-black/70 backdrop-blur-md border border-white/15 px-3 py-1.5 rounded-full">
+                  {service.price}
+                </span>
+              </div>
 
               {/* Content */}
-              <div className="relative z-10 p-8">
+              <div className="relative z-10 p-7 bg-gradient-to-br from-[#151515] to-[#0b0b0b]">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="p-3 bg-orange-500/10 rounded-xl border border-orange-500/20">
+                  <div className="p-3 bg-orange-500/10 rounded-xl border border-orange-500/20 -mt-14 shadow-xl backdrop-blur-md">
                     {service.icon}
                   </div>
-                  <span className="text-orange-400 font-bold text-sm">{service.price}</span>
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>

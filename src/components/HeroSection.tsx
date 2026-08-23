@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useState } from "react";
 
 const cities = [
@@ -24,15 +25,20 @@ export default function HeroSection() {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero-bg.svg')" }}
+      {/* Cinematic vehicle carrier hero image */}
+      <Image
+        src="/images/hero-car-carrier.jpg"
+        alt="Car carrier transporting vehicles on a South African highway at sunset"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-[68%_center]"
       />
 
-      {/* Overlays */}
-      <div className="absolute inset-0 hero-overlay" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black" />
+      {/* Layered overlays keep the copy legible while preserving the photography */}
+      <div className="absolute inset-0 bg-black/35" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/65 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-transparent to-black" />
 
       {/* Animated Road Lines */}
       <div className="absolute bottom-0 left-0 right-0 h-2 overflow-hidden">
@@ -66,7 +72,7 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
-        <div className="text-center">
+        <div className="text-center lg:text-left lg:max-w-4xl">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -96,7 +102,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed"
+            className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto lg:mx-0 mb-10 leading-relaxed"
           >
             SwiftMove Auto Transport connects all major cities across South Africa.
             Whether it&apos;s open or enclosed transport — your vehicle arrives{" "}
@@ -108,7 +114,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.6 }}
-            className="glass-card rounded-2xl p-6 max-w-3xl mx-auto mb-10"
+            className="glass-card rounded-2xl p-6 max-w-3xl mx-auto lg:mx-0 mb-10 shadow-2xl shadow-black/30"
           >
             <p className="text-sm text-orange-400 font-semibold uppercase tracking-widest mb-4">
               Get an Instant Quote
@@ -157,7 +163,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.8 }}
-            className="flex flex-wrap items-center justify-center gap-8 sm:gap-12"
+            className="flex flex-wrap items-center justify-center lg:justify-start gap-8 sm:gap-12"
           >
             {[
               { value: "15,000+", label: "Cars Transported" },
