@@ -42,7 +42,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-black text-white">
-                  Wise <span className="text-gradient">Move</span>
+                  Open <span className="text-gradient">Road</span>
                 </span>
                 <div className="text-[10px] text-orange-400 font-semibold tracking-widest uppercase -mt-1">
                   Transport
@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-gray-600 text-xs">
-            © {new Date().getFullYear()} Wise Move Transport (Pty) Ltd. All rights reserved. | Reg: 2012/123456/07
+            © {new Date().getFullYear()} Open Road Transport (Pty) Ltd. All rights reserved. | Reg: 2012/123456/07
           </div>
           <div className="flex gap-5 text-xs text-gray-600">
             <a href="#" className="hover:text-orange-400 transition-colors">Privacy Policy</a>

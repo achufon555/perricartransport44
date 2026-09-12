@@ -103,7 +103,7 @@ export default function ContactSection() {
                       </svg>
                     ),
                     label: "Email",
-                    value: "info@wisemovetransport.co.za",
+                    value: "info@openroadtransport.co.za",
                     sub: "We reply within 30 minutes",
                   },
                   {

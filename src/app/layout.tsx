@@ -17,11 +17,21 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "Wise Move Transport | South Africa's #1 Car Transport Company",
+  metadataBase: new URL("https://www.openroadtransport.co.za"),
+  title: "Open Road Transport | South Africa's #1 Car Transport Company",
   description:
-    "Wise Move Transport – South Africa's trusted car transport company. We deliver your vehicle safely across Johannesburg, Cape Town, Durban, and all major cities. Get a free quote today!",
+    "Open Road Transport – South Africa's trusted car transport company. We deliver your vehicle safely across Johannesburg, Cape Town, Durban, and all major cities. Get a free quote today!",
   keywords:
     "car transport South Africa, vehicle transport, auto transport, car shipping, Johannesburg, Cape Town, Durban",
+  openGraph: {
+    title: "Open Road Transport | South Africa's #1 Car Transport Company",
+    description:
+      "South Africa's trusted car transport company. We deliver your vehicle safely across Johannesburg, Cape Town, Durban, and all major cities.",
+    url: "https://www.openroadtransport.co.za",
+    siteName: "Open Road Transport",
+    locale: "en_ZA",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
