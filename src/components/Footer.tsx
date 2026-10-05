@@ -61,7 +61,7 @@ export default function Footer() {
               {[
                 { label: "Facebook", icon: "f", color: "#1877f2", href: "#" },
                 { label: "Instagram", icon: "📷", color: "#e4405f", href: "#" },
-                { label: "WhatsApp", icon: "W", color: "#25d366", href: "https://wa.me/27617261895" },
+                { label: "WhatsApp", icon: "W", color: "#25d366", href: "https://wa.me/27845793037" },
                 { label: "YouTube", icon: "▶", color: "#ff0000", href: "#" },
               ].map((social) => (
                 <motion.a

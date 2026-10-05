@@ -93,7 +93,7 @@ export default function ContactSection() {
                       </svg>
                     ),
                     label: "Phone / WhatsApp",
-                    value: "+27 61 726 1895",
+                    value: "084 579 3037",
                     sub: "Available 7 days a week",
                   },
                   {
@@ -143,7 +143,7 @@ export default function ContactSection() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/27617261895"
+              href="https://wa.me/27845793037"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02 }}
